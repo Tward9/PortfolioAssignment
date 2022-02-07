@@ -49,6 +49,8 @@ header li{
     width: 10em;
     height: 25%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .projectcard{
@@ -61,6 +63,10 @@ header li{
 #project1{
     display: block;
     width: 100%;
+}
+
+#project1img{
+    width: 750px;
 }
 
 #contactme{
