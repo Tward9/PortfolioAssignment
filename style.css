@@ -4,6 +4,7 @@ html{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     background: rgb(236,17,152);
     background: linear-gradient(126deg, rgba(236,17,152,0.850577731092437) 0%, rgba(89,8,131,0.6825105042016807) 100%);
     padding: 1em;
@@ -23,15 +24,77 @@ header li{
     padding: .5em;
 }
 
-.navlink:link{
+.navlink:link, .navlink:visited{
     color: black;
 }
 
-.navlink:visited{
-    color: black;
-}
-
-footer{
+#aboutme{
+    padding: .5em;
     display: flex;
 }
 
+#aboutme h2{
+    border: .25em solid rgba(236,17,152,0.738532913165266);
+    width: 25%;
+    height: 25%;
+    text-align: center;
+}
+#myprojects{
+    padding: .5em;
+    display: flex;
+}
+
+#myprojects h2{
+    border: .25em solid rgba(89,8,131,0.6825105042016807);
+    width: 10em;
+    height: 25%;
+    text-align: center;
+}
+
+.projectcard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#project1{
+    display: block;
+    width: 100%;
+}
+
+#contactme{
+    display: flex;
+    padding: .5em;
+    justify-content: space-between;
+    background: linear-gradient(126deg, rgba(89,8,131,0.6825105042016807) 0%, rgba(236,17,152,0.850577731092437) 100%);
+}
+
+@media screen and (max-width: 875px){
+    header{
+        justify-content: space-around;
+    }
+    header h1{
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+    }
+    header ul{
+        display: flex;
+        font-size: 1.25em;
+    }
+}
+@media screen and (max-width: 550px){
+    header{
+        justify-content: space-around;
+    }
+    header h1{
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+    }
+    header ul{
+        display: flex;
+        font-size: .75em;
+    }
+}
