@@ -4,12 +4,34 @@ html{
 
 header{
     display: flex;
+    background: rgb(236,17,152);
+    background: linear-gradient(126deg, rgba(236,17,152,0.850577731092437) 0%, rgba(89,8,131,0.6825105042016807) 100%);
+    padding: 1em;
+    justify-content: space-between;
 }
 
 header ul{
     display: flex;
+    font-size: 1.5em;
+}
+
+header h1{
+    font-size: 2.5em;
+}
+
+header li{
+    padding: .5em;
+}
+
+.navlink:link{
+    color: black;
+}
+
+.navlink:visited{
+    color: black;
 }
 
 footer{
     display: flex;
 }
+
