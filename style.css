@@ -31,12 +31,13 @@ header li{
 #aboutme{
     padding: .5em;
     display: flex;
+    position: relative;
 }
 
 #aboutme h2{
     border: .25em solid rgba(236,17,152,0.738532913165266);
-    width: 25%;
     height: 25%;
+    padding: 2px;
     text-align: center;
 }
 
@@ -62,6 +63,7 @@ header li{
     border: .25em solid rgba(89,8,131,0.6825105042016807);
     width: 10em;
     height: 25%;
+    padding: 2px;
     text-align: center;
 }
 
@@ -120,8 +122,18 @@ header li{
         display: flex;
         font-size: .75em;
     }
-    #project1img{
+    img, .projectcard{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: auto;
+    }
+    .projectcard h3{
+        text-align: center;
+    }
+    .projectimg{
         max-width: 100%;
+        display: block;
     }
     #aboutme{
         display: flex;
@@ -132,4 +144,6 @@ header li{
         width: 100%;
         text-align: center;
     }
+    
+
 }
