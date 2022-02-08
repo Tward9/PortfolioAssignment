@@ -39,6 +39,13 @@ header li{
     height: 25%;
     text-align: center;
 }
+
+#aboutme img{
+    max-width: 200px;
+    height: min-content;
+    padding: .5em;
+}
+
 #myprojects{
     padding: .5em;
     display: flex;
@@ -92,6 +99,13 @@ header li{
         display: flex;
         font-size: 1.25em;
     }
+    #aboutme img{
+        max-width: 150px;
+        height: min-content;
+    }
+    #project1img{
+        max-width: 400px;
+    }
 }
 @media screen and (max-width: 550px){
     header{
@@ -105,5 +119,17 @@ header li{
     header ul{
         display: flex;
         font-size: .75em;
+    }
+    #project1img{
+        max-width: 100%;
+    }
+    #aboutme{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #aboutme h2, #myprojects h2{
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }
