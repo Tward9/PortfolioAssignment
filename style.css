@@ -100,11 +100,14 @@ h3{
 }
 .projectimg{
     width: 300px;
-    padding-left: 55px;
+    margin-left: 50px;
 }
 #project1img{
     width: 500px;
     padding-left: 0;
+}
+.projectimg:hover{
+    box-shadow: 10px 10px 5px #393a3b;
 }
 footer{
     background: rgb(255,255,255);
