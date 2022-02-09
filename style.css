@@ -7,7 +7,8 @@ html{
 header{
     display: flex;
     flex-wrap: wrap;
-    background: #c3c8fa;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(195,200,250,1) 100%);
     padding: 1em;
     justify-content: space-between;
 }
@@ -36,13 +37,6 @@ h3{
 #aboutme{
     padding: .5em;
     display: flex;
-    position: relative;
-}
-#aboutme h2{
-    border: .25em solid rgba(236,17,152,0.738532913165266);
-    height: 25%;
-    padding: 2px;
-    text-align: center;
 }
 #aboutme img{
     max-width: 200px;
@@ -52,7 +46,12 @@ h3{
 #divider{
     height: 0.5em;
     width: 100%;
-    background-color: #0e70e8;
+    background-color: #c3c8fa;
+}
+#dividerbot{
+    height: 0.5em;
+    width: 100%;
+    background-color: #e0e3fc;
 }
 #myprojects{
     padding: .5em;
@@ -63,11 +62,9 @@ h3{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    border-left: 2px, solid,  rgba(89,8,131,0.6825105042016807);
-    
 }
-#myprojects h2{
-    border: .25em solid rgba(89,8,131,0.6825105042016807);
+.sectiontitle{
+    border: .25em solid #c3c8fa;
     width: 10em;
     height: 25%;
     padding: 2px;
@@ -111,10 +108,11 @@ h3{
 }
 footer{
     background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(195,200,250,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(195,200,250,1) 100%);
 }
 #contactme{
     display: flex;
+    flex-wrap: wrap;
     padding: .5em;
     justify-content: space-between;
 }
@@ -181,7 +179,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(195,200,250,1) 10
         display: flex;
         flex-wrap: wrap;
     }
-    #aboutme h2, #myprojects h2{
+    .sectiontitle{
         display: block;
         width: 100%;
         text-align: center;
