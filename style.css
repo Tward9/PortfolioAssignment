@@ -4,8 +4,7 @@ html{
 header{
     display: flex;
     flex-wrap: wrap;
-    background: rgb(236,17,152);
-    background: linear-gradient(126deg, rgba(236,17,152,0.850577731092437) 0%, rgba(89,8,131,0.6825105042016807) 100%);
+    background: #0e70e8;
     padding: 1em;
     justify-content: space-between;
 }
@@ -49,10 +48,11 @@ h3{
     display: flex;
     flex-wrap: wrap;
 }
-#projectgroup{
+.projectgroup{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    border-left: 2px, solid,  rgba(89,8,131,0.6825105042016807);
     
 }
 #myprojects h2{
@@ -63,18 +63,40 @@ h3{
     text-align: center;
 }
 .projectcard{
-    display: block;
-    width: 1em;
+    display: flex;
+    width: 250px;
 }
 #project1{
     display: block;
     width: 100%;
+    text-align: center;
+}
+#project2{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+#project3{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+#project4{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.projectheader{
+    width: 100%;
+    text-align: center;
 }
 .projectimg{
     width: 250px;
+    padding-left: 55px;
 }
 #project1img{
-    width: 750px;
+    width: 500px;
+    padding-left: 0;
 }
 #contactme{
     display: flex;
