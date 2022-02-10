@@ -38,6 +38,9 @@ h3{
     padding: .5em;
     display: flex;
 }
+#aboutme p{
+    padding: .5em;
+}
 #aboutme img{
     max-width: 200px;
     height: min-content;
@@ -66,7 +69,7 @@ h3{
 .sectiontitle{
     border: .25em solid #c3c8fa;
     width: 10em;
-    height: 25%;
+    height: 100%;
     padding: 2px;
     text-align: center;
 }
