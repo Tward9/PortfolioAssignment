@@ -102,17 +102,19 @@ h3{
 .projectheader{
     width: 100%;
     text-align: center;
+    padding: .5em;
 }
 .projectimg{
     width: 300px;
     height: 125px;
     object-fit: scale-down;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 #project1img{
     width: 500px;
     height: fit-content;
     padding-left: 0;
+    margin-left: auto;
 }
 #project3img{
     background-color: #e9ebfd;
